@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+nav {
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+nav li:first-child {
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+}
+article {
+    display: flex;
+    gap:10px;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.container {
+    border: 2px solid lightcoral;
+    padding: 5px;
+    flex: 1 1 calc(33% - 10px);
+}
